@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #ffd700;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  }
+  
+  .about {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .about h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .achievements h2 {
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #ccc;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
